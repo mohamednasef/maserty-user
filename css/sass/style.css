@@ -1170,6 +1170,93 @@ footer .item-foot span {
   color: #40A3AF;
 }
 
+.main-img {
+  margin: 40px 0;
+  text-align: center;
+}
+.diic h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.item-rating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item-rating h6 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.rate {
+  display: flex;
+  justify-content: center;
+  height: 46px;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+.rate:not(:checked) > label {
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #8595AA;
+}
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+.rate > input:checked ~ label {
+  color: #f9a134;
+}
+.rate:not(:checked) > label:hover, .rate:not(:checked) > label:hover ~ label {
+  color: #F9A134;
+}
+.rate > input:checked + label:hover, .rate > input:checked + label:hover ~ label, .rate > input:checked ~ label:hover, .rate > input:checked ~ label:hover ~ label, .rate > label:hover ~ input:checked ~ label {
+  color: #F9A134;
+}
+
+.tt textarea {
+  background: #F9F9F9;
+  border: 1px solid #DFDFDF;
+  padding: 10px !important;
+}
+.tt textarea::-moz-placeholder {
+  color: #000;
+}
+.tt textarea::placeholder {
+  color: #000;
+}
+
+.field-input {
+  margin-bottom: 25px;
+}
+.field-input input {
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #DFDFDF;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.field-input textarea {
+  width: 100%;
+  height: 180px;
+  border-radius: 4px;
+  border: 1px solid #DFDFDF;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
 .layout-login {
   width: 100vw;
   min-height: 100vh;
