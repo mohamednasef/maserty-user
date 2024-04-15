@@ -1,0 +1,189 @@
+.tempalte10{
+
+    width: 600px;
+    min-height: 835px;
+    padding: 40px 0px 0 0px ;
+
+    box-shadow: #959da533 0px 8px 24px;;
+   background: url(../../img/cv10.svg) no-repeat top left ;
+   background-size: cover;
+  
+
+   
+    &.en{
+        direction: ltr;
+        text-align:left;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    
+    &.ar{
+        margin-left: 6px;
+        text-align: right;
+        direction: rtl;
+        background: url(../../img/cv10ar.svg) no-repeat top;
+        background-size: cover;
+        
+
+        .tem10-title h4{
+            border-radius: 20px 0 0 20px;
+        }
+        .t10-t{
+            padding-left: 0px;
+            padding-right: 40px;
+            margin-bottom: 60px;
+        }
+        .te10-contact,
+        .te10-bar{
+            // padding-top: 50px;
+    padding-left: 00px;
+    padding-right: 30px;
+        }
+
+
+
+        }
+        .tem10{
+            
+            display: flex;
+            .tem10-l{
+                width: 50%;
+            
+            }
+            .tem10-r{
+                width: 50%;
+              
+            }
+        }
+
+
+        .t10-t{
+            padding-left: 40px;
+            // text-align: center;
+            margin-bottom: 60px;
+            h2{
+                color: #fff;
+                margin-bottom: 10px;
+            }
+            h4{
+                color: #fff;
+                font-weight: 400;
+                font-size: 17px;
+                margin-bottom: 10px;
+
+            }
+            img{
+                display: block;
+                height: 30px;
+                width: 30px;
+                img{
+                }
+            
+            }
+        }
+       .tem10-title{
+           h4{
+               background:#EAF2F4;
+               padding:5px 10px;
+               font-size: 17px;
+               border-radius: 0 20px 20px 0;
+               font-weight: 600;
+               margin-bottom: 15px;
+           }
+       } 
+
+       .dis-ab{
+           color: #fff;
+           font-size: 12px;
+           margin:0 10px;
+           margin-bottom: 15px;
+           font-weight: 400;
+       }
+       .t10-ex{
+           margin: 0 10px;
+           margin-bottom: 10px;
+           h6{
+               color: #fff;
+               font-size: 12px;
+           }
+           p{
+               font-size: 11px;
+               color: #fff;
+           }
+       }
+       .t10-ex{
+
+       }
+       .te-profile{
+           width: 150px;
+           height: 150px;
+        //    background:red;
+           margin: auto;
+           border-radius: 15px;
+           transform: rotate(45deg);
+           overflow: hidden;
+           position: relative;
+           img{
+               position: absolute;
+               display: block;
+               left: 50%;
+               top: 50%;
+               transform: translate(-50%, -50%) rotate(-45deg);
+               position: absolute;
+            // transform: ;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+
+           }
+       }
+       .tcont{
+           h4{
+               color: #20364C;
+               font-size: 18    px;
+           }
+       }
+       .tem10-r{
+        //    margin-left: 40px;
+       }
+       .te10-contact{
+           padding-top: 50px;
+           padding-left:30px ;
+       }
+       .list-mail{
+           ul{
+               li{
+                   margin-bottom: 10px;
+                   display: flex;
+                   span{
+                       margin:  0 7px;
+                       font-size: 12px;
+                   }
+               }
+           }
+       }
+       .te10-bar{
+           padding-left: 30px;
+           margin-bottom: 20px;
+           .tcont{
+               margin-bottom: 15px;
+           }
+       }
+       .item-prog{
+           span{
+
+               margin-bottom: 5px;
+               color: #20364C;
+               display: block;
+               text-transform: uppercase;
+           }
+           div{
+               background:#8796A2 ;
+               height: 3px;
+                width: 200px;
+                p{
+                    height: 100%;
+                    background:#20364C ;
+                }
+           }
+       }
+}
